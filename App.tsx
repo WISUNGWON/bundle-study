@@ -24,7 +24,7 @@ const App = () => {
         <div className="emoji">{selectedEmoji.icon}</div>
         <div className="emoji-name">{selectedEmoji.name}</div>
         {/* 다른 이모지 보기 기능을 추가했어요 */}
-        <button onClick={showRandomEmoji}>See other emoji</button>
+        <button onClick={showRandomEmoji}>See other 이모지</button>
       </div>
     </div>
   );
